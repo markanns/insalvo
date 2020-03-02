@@ -48,6 +48,7 @@ nav {
             text-transform: uppercase;
             padding-bottom: 17px;
             padding-top: 30px;
+            font-family: 'Poppins';
 
             &:hover {
                 border-bottom: 2px solid rgb(175, 148, 42);
@@ -102,6 +103,9 @@ nav {
             height: 50px;
             outline: none;
 
+            &:hover{
+                cursor: pointer;
+            }
         }
 
     }
