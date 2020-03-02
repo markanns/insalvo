@@ -1,0 +1,211 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.topNav {
+  height: 40px;
+  background-color: #2e2e2f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.topNav__telEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 335px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 40px;
+}
+
+.topNav__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 230px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.topNav__social__networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+}
+
+nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  padding-bottom: 17px;
+  padding-top: 30px;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid #af942a;
+}
+
+.heroImg {
+  background-image: url(../../img/heroImg.jpg);
+  background-size: cover;
+  height: 780px;
+}
+
+.heroImg__headings {
+  position: relative;
+  top: 30%;
+  left: 20%;
+  width: 700px;
+}
+
+.heroImg__headings canvas {
+  background-color: #af942a;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.heroImg__headings h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding-left: 10px;
+  font-family: 'Poppins';
+}
+
+.heroImg__headings p {
+  width: 380px;
+  font-size: 18px;
+  line-height: 32px;
+  padding-left: 13px;
+}
+
+.heroImg__headings__button {
+  background-color: #af942a;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 13px;
+  margin-left: 13px;
+  width: 150px;
+  height: 50px;
+  outline: none;
+}
+
+.service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 70px;
+  padding-left: 410px;
+  padding-right: 410px;
+}
+
+.service__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service__heading h2 {
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-size: 36px;
+}
+
+.service__heading__myCanvas {
+  background-color: #af942a;
+}
+
+.service__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 85px;
+}
+
+.service__images__first {
+  width: 230px;
+  height: 230px;
+  background-image: url(../../img/peopleWalking.png);
+  background-size: cover;
+}
+
+.service__images__second {
+  width: 230px;
+  height: 230px;
+  background-image: url(../../img/family.png);
+}
+
+.service__images__third {
+  width: 230px;
+  height: 230px;
+  background-image: url(../../img/column.png);
+}
+
+.service__images__fourth {
+  width: 230px;
+  height: 230px;
+  background-image: url(../../img/sheets.png);
+}
+/*# sourceMappingURL=main.css.map */
